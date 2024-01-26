@@ -1,7 +1,7 @@
 /* ---------------------------------------------------------------------------------------
-A.  Theme Name: JaldiBankLoan & Insurance
+A.  Theme Name:  eLoan - Banking, Loan & Insurance Responsive Temaplate
 B.  Author: Iddrak;
-C.  Description: is an innovative HTML5 responsive Website with a super modern, clean and fresh design.
+C.  Description: eLoan is an innovative HTML5 responsive Website with a super modern, clean and fresh design.
 E.  Version:1.0;
 --------------------------------------------------------------------------------------- */
 
@@ -1162,6 +1162,41 @@ th {
 }
 
 .scroll-top:hover {
+  -webkit-box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
+  box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
+  -webkit-transform: translate3d(0, -5px, 0);
+  transform: translate3d(0, -5px, 0);
+  background-color: var(--main-color-one);
+}
+
+/* One Click Scrool Top Button*/
+.wp-top {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  background: transparent
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  color: #fff !important;
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  border-radius: 5px;
+}
+
+.wp-top:hover {
   -webkit-box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
   box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
   -webkit-transform: translate3d(0, -5px, 0);
