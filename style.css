@@ -1,7 +1,7 @@
 /* ---------------------------------------------------------------------------------------
-A.  Theme Name:  eLoan - Banking, Loan & Insurance Responsive Temaplate
+A.  Theme Name: JaldiBankLoan & Insurance
 B.  Author: Iddrak;
-C.  Description: eLoan is an innovative HTML5 responsive Website with a super modern, clean and fresh design.
+C.  Description: is an innovative HTML5 responsive Website with a super modern, clean and fresh design.
 E.  Version:1.0;
 --------------------------------------------------------------------------------------- */
 
@@ -1636,7 +1636,7 @@ th {
 }
 
 .navbar-nav .nav-item a.dd-menu::after {
-  content: "\ea58";
+  /* content: "\ea58"; */
   font: normal normal normal 1em/1 "LineIcons";
   position: absolute;
   right: -18px;
