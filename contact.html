@@ -60,24 +60,22 @@
                                             <a href="index.html" class="active" aria-label="Toggle navigation">Home</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class=" dd-menu collapsed" href="#blog" data-bs-toggle="collapse"
-                                                data-bs-target="#submenu-1-2" aria-controls="navbarSupportedContent"
-                                                aria-expanded="false" aria-label="Toggle navigation">About Us</a>
-                                            <ul class="sub-menu collapse" id="submenu-1-2">
+                                            <a class=" dd-menu collapsed" href="#about-section">About Us</a>
+                                            <!-- <ul class="sub-menu collapse" id="submenu-1-2">
                                                 <li class="nav-item"><a href="projects.html">About Team</a>
                                                 </li>
                                                 <li class="nav-item"><a href="project-details.html">About Organisation</a>
                                                 </li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <li class="nav-item">
                                             <a class=" dd-menu collapsed" href="#blog" data-bs-toggle="collapse"
                                                 data-bs-target="#submenu-1-1" aria-controls="navbarSupportedContent"
                                                 aria-expanded="false" aria-label="Toggle navigation">Property Loan</a>
                                             <ul class="sub-menu collapse" id="submenu-1-1">
-                                                <li class="nav-item"><a href="services.html">Home Loan</a>
+                                                <li class="nav-item"><a href="online-form.html">Home Loan</a>
                                                 </li>
-                                                <li class="nav-item"><a href="service-details.html">Loan Against Property</a></li>
+                                                <li class="nav-item"><a href="online-form.html">Loan Against Property</a></li>
                                             </ul>
                                         </li>
                                         <li class="nav-item">
@@ -85,9 +83,9 @@
                                                 data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent"
                                                 aria-expanded="false" aria-label="Toggle navigation">Business Loan</a>
                                             <ul class="sub-menu collapse" id="submenu-1-4">
-                                                <li class="nav-item"><a href="blog.html">Unsecured Business Loan</a>
+                                                <li class="nav-item"><a href="online-form.html">Unsecured Business Loan</a>
                                                 </li>
-                                                <li class="nav-item"><a href="blog-single.html">Secured Business Loan</a></li>
+                                                <li class="nav-item"><a href="online-form.html">Secured Business Loan</a></li>
                                             </ul>
                                         </li>
                                         <li class="nav-item">
@@ -95,16 +93,16 @@
                                                 data-bs-target="#submenu-1-3" aria-controls="navbarSupportedContent"
                                                 aria-expanded="false" aria-label="Toggle navigation">Investments & More</a>
                                             <ul class="sub-menu collapse" id="submenu-1-3">
-                                                <li class="nav-item"><a href="about.html">Investments in Shares</a>
-                                                <li class="nav-item"><a href="team.html">Investment in Derivative Market</a>
-                                                <li class="nav-item"><a href="404.html">Insurance</a>
+                                                <li class="nav-item"><a href="online-form.html">Investments in Shares</a>
+                                                <li class="nav-item"><a href="online-form.html">Investment in Derivative Market</a>
+                                                <li class="nav-item"><a href="online-form.html">Insurance</a>
                                                 <li class="nav-item"><a href="online-form.html">Apply For Loan</a>
                                                 </li>
-                                                <li class="nav-item"><a href="clients.html">Clients</a>
+                                                <!-- <li class="nav-item"><a href="clients.html">Clients</a>
                                                 </li>
                                                 <li class="nav-item"><a href="login.html">Login</a></li>
                                                 <li class="nav-item"><a href="register.html">Registration</a></li>
-                                                <li class="nav-item"><a href="faq.html">faq</a></li>
+                                                <li class="nav-item"><a href="faq.html">faq</a></li> -->
                                             </ul>
                                         </li>
                                         <li class="nav-item">
@@ -180,12 +178,13 @@
                     <div class="card contact-info-item mt-30">
                         <div class="card-body">
                             <div class="contact-info-icon text-primary mb-4">
-                                <i class="fa fa-phone"></i>
+                                
+                                <i class="fa fa-phone" ></i>
                             </div>
                             <div class="contact-content">
                                 <h5 class="mb-3">Let's Talk</h5>
                                 <p class="m-0"><span class="fw-bold">Phone:</span> 8130378500</p>
-                                <p class="m-0"><span class="fw-bold">Email:</span> info@example.org</p>
+                                <p class="m-0"><span class="fw-bold">Email:</span> jaldibankloan@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -200,10 +199,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
-                    <div class="section-title text-center mb-50">
+                    <div class="section-title text-center mb-20">
                         <h6>Book Appoinment Now!</h6>
-                        <h2>Have Queries Before the Appointment?</h2>
-                        <p>Pellentesque congue quis massa sagittis posuere. Praesent placerat cursus lacus, sed suscipit odio dapibus vel. Aliquam erat volutpat.</p>
+                        <h2>Cannot Call ? Don't worry! <br> Text us your query.</h2>
+                        <!-- <p>Pellentesque congue quis massa sagittis posuere. Praesent placerat cursus lacus, sed suscipit odio dapibus vel. Aliquam erat volutpat.</p> -->
                     </div>
                 </div>
             </div>
@@ -212,26 +211,27 @@
                     <div class="card contact-form">
                         <div class="card-body">
                             <div id="form-messages" class="mb-30"></div>
-                            <form id="ajax-contact" method="post" action="">
+                            <form action="https://formspree.io/f/mqkogaqv" method="POST">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="form-group mb-30">
-                                            <input id="name" type="text" name="name" placeholder="Robin Hossain" class="form-control">
+                                            <input id="name" type="text" name="name" placeholder="Enter Your Name" class="form-control">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="form-group mb-30">
-                                            <input id="email" type="email" name="email" placeholder="name@example.com" required="required" class="form-control">
+                                            <input id="email" type="email" name="email" placeholder="Enter Your Mail Id" required="required" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                         
+                                            <input type="text" class="form-control" name = "Number" placeholder="Enter Your Phone Number" id="exampleFormControlInput2">
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group mb-30">
-                                            <input name="subject" type="text" id="subject" required="required" class="form-control"  placeholder="Subject">
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-group mb-30">
-                                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Hi there, I would like to something ..." required="required" ></textarea>
+                                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Hi there, I would like to ask something ..." required="required" ></textarea>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -242,12 +242,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 my-3">
+                <div class="col-lg-10 my-3">
                     <div class="g-map">
                         <div class="card card-body">
                             <div class="ratio ratio-1x1">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13004066.00814038!2d-104.65581234446189!3d37.275676226127175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1620215274393!5m2!1sen!2sin"></iframe>
-                            </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.474734323203!2d77.16850473948296!3d28.6455008311891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03de10e5ce0f%3A0x34c438c34af0c865!2sJaldibankloan!5e0!3m2!1sen!2sin!4v1706306523264!5m2!1sen!2sin" width="1000" height="750" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        </div>
                         </div>
                     </div>
                 </div>
